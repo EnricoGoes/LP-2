@@ -13,8 +13,15 @@ body {
 header img {
     width: 200px;
     height: 200px;
-    border: 7px solid royalblue;
+    border: 7px solid rgb(160, 0, 160);
     border-radius: 60%;
+    box-shadow:
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+   
+    3px -3px 1px rgba(0, 0, 0, 0.55),
+    3px -3px 1px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -23,9 +30,17 @@ header img {
 }
 
 h1 {
-    color: royalblue;
+    color: rgb(160, 0, 160);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+    text-shadow:  
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+   
+    3px -3px 1px rgba(0, 0, 0, 0.55),
+    3px -3px 1px rgba(0, 0, 0, 0.5);
+
     font-size: 60px;
 
 }
@@ -34,23 +49,39 @@ h2 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     font-size: 45px;
+    text-shadow:  
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+   
+    3px -3px 1px rgba(0, 0, 0, 0.55),
+    3px -3px 1px rgba(0, 0, 0, 0.5);
+
 
 }
 
-h3 {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    font-size: 45px;
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 
 .fundo{
-    background-color: black;
-
+    background-color: rgb(160, 0, 160);
+    border-radius: 10px;
+    
 }
 
 p {
     font-size: 35px;
+    text-shadow:  
+      1px -1px 0 #2f5d87,
+      2px -2px 0 #2e5a83,
+      3px -3px 0 #2d5880,
+     
+      3px -3px 1px rgba(0, 0, 0, 0.55),
+      3px -3px 1px rgba(0, 0, 0, 0.5);
 
 }
 
